@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  background-size: cover;
+
+  background-color: #f8f9fa;
+  font-size: 30px;
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+}
+
+kbd {
+  display: block;
+}
+
+.keys {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  padding: 150px;
+  height: 50vw;
+  border-width: 3px
+}
+
+
+.key {
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 3px solid  palevioletred;
+  color: black;
+  background-color: palevioletred;
+  border-width: 3px;
+  border-radius: 100px;
+  
+}
+
+
+/* 
+.key:active {
+  text-decoration: line-through;
+} */
+
